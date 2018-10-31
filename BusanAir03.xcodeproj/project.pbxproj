@@ -12,6 +12,7 @@
 		24223CED2189743A0068EAC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24223CEB2189743A0068EAC7 /* Main.storyboard */; };
 		24223CEF2189743C0068EAC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24223CEE2189743C0068EAC7 /* Assets.xcassets */; };
 		24223CF22189743C0068EAC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24223CF02189743C0068EAC7 /* LaunchScreen.storyboard */; };
+		24223CFB218974DD0068EAC7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24223CFA218974DD0068EAC7 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		24223CEE2189743C0068EAC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24223CF12189743C0068EAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24223CF32189743C0068EAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24223CFA218974DD0068EAC7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24223CFB218974DD0068EAC7 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				24223CE62189743A0068EAC7 /* BusanAir03 */,
 				24223CE52189743A0068EAC7 /* Products */,
+				24223CF9218974DC0068EAC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				24223CF32189743C0068EAC7 /* Info.plist */,
 			);
 			path = BusanAir03;
+			sourceTree = "<group>";
+		};
+		24223CF9218974DC0068EAC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24223CFA218974DD0068EAC7 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
