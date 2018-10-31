@@ -13,6 +13,7 @@
 		24223CEF2189743C0068EAC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24223CEE2189743C0068EAC7 /* Assets.xcassets */; };
 		24223CF22189743C0068EAC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24223CF02189743C0068EAC7 /* LaunchScreen.storyboard */; };
 		24223CFB218974DD0068EAC7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24223CFA218974DD0068EAC7 /* MapKit.framework */; };
+		24223CFD21897F970068EAC7 /* BusanAirData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24223CFC21897F970068EAC7 /* BusanAirData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		24223CF12189743C0068EAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24223CF32189743C0068EAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24223CFA218974DD0068EAC7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		24223CFC21897F970068EAC7 /* BusanAirData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusanAirData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		24223CE62189743A0068EAC7 /* BusanAir03 */ = {
 			isa = PBXGroup;
 			children = (
+				24223CFC21897F970068EAC7 /* BusanAirData.swift */,
 				24223CE72189743A0068EAC7 /* AppDelegate.swift */,
 				24223CE92189743A0068EAC7 /* ViewController.swift */,
 				24223CEB2189743A0068EAC7 /* Main.storyboard */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24223CFD21897F970068EAC7 /* BusanAirData.swift in Sources */,
 				24223CEA2189743A0068EAC7 /* ViewController.swift in Sources */,
 				24223CE82189743A0068EAC7 /* AppDelegate.swift in Sources */,
 			);
